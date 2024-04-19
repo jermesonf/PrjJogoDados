@@ -84,6 +84,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Img\template.png" />
+    <None Include="Img\som.wav" />
     <Content Include="Properties\Img\dado1.png" />
     <Content Include="Properties\Img\dado2.png" />
     <Content Include="Properties\Img\dado3.png" />

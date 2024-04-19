@@ -27,7 +27,7 @@ namespace PrjJogoDados
 
         public void playSimpleSound()
         {
-            SoundPlayer simpleSound = new SoundPlayer(@"C:\Users\jemer\Desktop\ETEC\C#\PrjJogoDados\PrjJogoDados\Img\som.wav"); //definir diretorio do som .wav
+            SoundPlayer simpleSound = new SoundPlayer(Properties.Resources.som); //definir diretorio do som .wav
             simpleSound.Play();
         }
 
@@ -44,17 +44,17 @@ namespace PrjJogoDados
             
 
             if (x == 0)
-                pctboxDado.Image = Image.FromFile(@"C:\Users\jemer\Desktop\ETEC\C#\PrjJogoDados\PrjJogoDados\Img\dado1.png"); //definir o diretorio das imagens
+                pctboxDado.Image = Properties.Resources.dado1;
             if (x == 1)
-                pctboxDado.Image = Image.FromFile(@"C:\Users\jemer\Desktop\ETEC\C#\PrjJogoDados\PrjJogoDados\Img\dado2.png"); //definir o diretorio das imagens
+                pctboxDado.Image = Properties.Resources.dado2; //definir o diretorio das imagens
             if (x == 2)
-                pctboxDado.Image = Image.FromFile(@"C:\Users\jemer\Desktop\ETEC\C#\PrjJogoDados\PrjJogoDados\Img\dado3.png"); //definir o diretorio das imagens
+                pctboxDado.Image = Properties.Resources.dado3; //definir o diretorio das imagens
             if (x == 3)
-                pctboxDado.Image = Image.FromFile(@"C:\Users\jemer\Desktop\ETEC\C#\PrjJogoDados\PrjJogoDados\Img\dado4.png"); //definir o diretorio das imagens
+                pctboxDado.Image = Properties.Resources.dado4; //definir o diretorio das imagens
             if (x == 4)
-                pctboxDado.Image = Image.FromFile(@"C:\Users\jemer\Desktop\ETEC\C#\PrjJogoDados\PrjJogoDados\Img\dado5.png"); //definir o diretorio das imagens
+                pctboxDado.Image = Properties.Resources.dado5; //definir o diretorio das imagens
             if (x == 5)
-                pctboxDado.Image = Image.FromFile(@"C:\Users\jemer\Desktop\ETEC\C#\PrjJogoDados\PrjJogoDados\Img\dado6.png"); //definir o diretorio das imagens
+                pctboxDado.Image = Properties.Resources.dado6; //definir o diretorio das imagens
 
             if (x == y)
             {
@@ -90,17 +90,17 @@ namespace PrjJogoDados
             y = sort.sortear();
 
             if (y == 0)
-                pctBoxDado2.Image = Image.FromFile(@"C:\Users\jemer\Desktop\ETEC\C#\PrjJogoDados\PrjJogoDados\Img\dado1.png"); //definir o diretorio das imagens
+                pctBoxDado2.Image = Properties.Resources.dado1; //definir o diretorio das imagens
             if (y == 1)
-                pctBoxDado2.Image = Image.FromFile(@"C:\Users\jemer\Desktop\ETEC\C#\PrjJogoDados\PrjJogoDados\Img\dado2.png"); //definir o diretorio das imagens
+                pctBoxDado2.Image = Properties.Resources.dado2; //definir o diretorio das imagens
             if (y == 2)
-                pctBoxDado2.Image = Image.FromFile(@"C:\Users\jemer\Desktop\ETEC\C#\PrjJogoDados\PrjJogoDados\Img\dado3.png"); //definir o diretorio das imagens
+                pctBoxDado2.Image = Properties.Resources.dado3; //definir o diretorio das imagens
             if (y == 3)
-                pctBoxDado2.Image = Image.FromFile(@"C:\Users\jemer\Desktop\ETEC\C#\PrjJogoDados\PrjJogoDados\Img\dado4.png"); //definir o diretorio das imagens
+                pctBoxDado2.Image = Properties.Resources.dado4; //definir o diretorio das imagens
             if (y == 4)
-                pctBoxDado2.Image = Image.FromFile(@"C:\Users\jemer\Desktop\ETEC\C#\PrjJogoDados\PrjJogoDados\Img\dado5.png"); //definir o diretorio das imagens
+                pctBoxDado2.Image = Properties.Resources.dado5; //definir o diretorio das imagens
             if (y == 5)
-                pctBoxDado2.Image = Image.FromFile(@"C:\Users\jemer\Desktop\ETEC\C#\PrjJogoDados\PrjJogoDados\Img\dado6.png"); //definir o diretorio das imagens
+                pctBoxDado2.Image = Properties.Resources.dado6; //definir o diretorio das imagens
 
             if (x == y)
             {
@@ -118,23 +118,26 @@ namespace PrjJogoDados
             
 
             if (x == 0)
-                    pctboxDado.Image = Image.FromFile(@"C:\Users\jemer\Desktop\ETEC\C#\PrjJogoDados\PrjJogoDados\Img\dado1.png"); //definir o diretorio das imagens
+                    pctboxDado.Image = Properties.Resources.dado1; //definir o diretorio das imagens
                 if (x == 1)
-                    pctboxDado.Image = Image.FromFile(@"C:\Users\jemer\Desktop\ETEC\C#\PrjJogoDados\PrjJogoDados\Img\dado2.png"); //definir o diretorio das imagens
+                    pctboxDado.Image = Properties.Resources.dado2; //definir o diretorio das imagens
             if (x == 2)
-                    pctboxDado.Image = Image.FromFile(@"C:\Users\jemer\Desktop\ETEC\C#\PrjJogoDados\PrjJogoDados\Img\dado3.png"); //definir o diretorio das imagens
+                    pctboxDado.Image = Properties.Resources.dado3; //definir o diretorio das imagens
             if (x == 3)
-                    pctboxDado.Image = Image.FromFile(@"C:\Users\jemer\Desktop\ETEC\C#\PrjJogoDados\PrjJogoDados\Img\dado4.png"); //definir o diretorio das imagens
+                    pctboxDado.Image = Properties.Resources.dado4; //definir o diretorio das imagens
             if (x == 4)
-                    pctboxDado.Image = Image.FromFile(@"C:\Users\jemer\Desktop\ETEC\C#\PrjJogoDados\PrjJogoDados\Img\dado5.png"); //definir o diretorio das imagens
+                    pctboxDado.Image = Properties.Resources.dado5; //definir o diretorio das imagens
             if (x == 5)
-                    pctboxDado.Image = Image.FromFile(@"C:\Users\jemer\Desktop\ETEC\C#\PrjJogoDados\PrjJogoDados\Img\dado6.png"); //definir o diretorio das imagens
+                pctboxDado.Image = Properties.Resources.dado6;
+            //pctboxDado.Image = Image.FromFile(@"C:\Users\Desktop\C#\PrjJogoDados\Img\imagem.png"); //definir o diretorio das imagens local
+                    
 
 
             if (x == y)
             {
                 lstBox.Items.Add("Igual!");
-                SoundPlayer simpleSound = new SoundPlayer(@"C:\Users\jemer\Desktop\ETEC\C#\PrjJogoDados\PrjJogoDados\Img\som.wav"); //definir diretorio do som .wav
+                SoundPlayer simpleSound = new SoundPlayer(Properties.Resources.som);
+                //SoundPlayer simpleSound = new SoundPlayer(@"C:\Users\Desktop\C#\PrjJogoDados\Img\som.wav"); //definir diretorio do som .wav local
                 simpleSound.Play();
             }
 
